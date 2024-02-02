@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кафе на берегу</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+      rel="stylesheet"
+    />
+    <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- Site Header -->
+        <div class="left">
+          <div class="left-inner">
+            <div class="site-header">
+              <i class="fas fa-coffee fa-3x tm-site-logo"></i>
+              <h1 class="site-name">Кафе Набережная</h1>
+            </div>
+            <nav>
+              <ul class="site-nav-ul">
+                <li class="page-nav-item">
+                  <a href="#drink" class="tm-page-link active">
+                    <i class="fas fa-mug-hot page-link-icon"></i>
+                    <span>Меню</span>
+                  </a>
+                </li>
+                <li class="page-nav-item">
+                  <a href="#about" class="tm-page-link">
+                    <i class="fas fa-users page-link-icon"></i>
+                    <span>Немного о нас</span>
+                  </a>
+                </li>
+                <li class="page-nav-item">
+                  <a href="#special" class="tm-page-link">
+                    <i class="fas fa-glass-martini page-link-icon"></i>
+                    <span>Изюминка</span>
+                  </a>
+                </li>
+                <li class="page-nav-item">
+                  <a href="#contact" class="tm-page-link">
+                    <i class="fas fa-comments page-link-icon"></i>
+                    <span>Контакты</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="right">
+          <main class="main">
+            <div id="drink" class="tm-page-content">
+              <!-- Drink Menu Page -->
+              <nav class="black-bg drinks-nav">
+                <ul>
+                  <li>
+                    <a href="#" class="tm-tab-link active" data-id="dr"
+                      >Напитки</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="tm-tab-link" data-id="general"
+                      >Основные блюда</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="tm-tab-link" data-id="hot"
+                      >Мангал-меню</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <div id="dr" class="tm-tab-content">
+                <div class="tm-list">
+                  <div class="list-item">
+                    <img
+                      src="img/hot-latte.png"
+                      alt="кофе"
+                      class="list-item-img"
+                    />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Кофе<span class="list-item-price">от 40грн.</span>
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Большой выбор кофе свареного вручную
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <img src="img/tea.jpg" alt="чай" class="list-item-img" />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Чай<span class="list-item-price">от 30грн.</span>
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Черный, зеленый и чай из лесных ягод
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <img
+                      src="img/milk.jpg"
+                      alt="коктель"
+                      class="list-item-img"
+                    />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Молочный коктель<span class="list-item-price">
+                          от 55грн.</span
+                        >
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Огромный выбор коктелей из разных фруктов
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <img src="img/beers.jpg" alt="пиво" class="list-item-img" />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Розливное пиво<span class="list-item-price"
+                          >от 60грн.</span
+                        >
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Несколько сортов крафтового пива
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="general" class="tm-tab-content">
+                <div class="tm-list">
+                  <div class="list-item">
+                    <img
+                      src="img/french-fries.jpg"
+                      alt="фри"
+                      class="list-item-img"
+                    />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Картофель фри<span class="list-item-price">
+                          30грн.</span
+                        >
+                      </h3>
+                      <p class="tm-list-item-description">
+                        СХрустящий картофель с чесночным соусом
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <img
+                      src="img/salad.jpg"
+                      alt="салат"
+                      class="list-item-img"
+                    />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Салат<span class="list-item-price">от 55грн.</span>
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Несколько видов салатов на любой вкус
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <img
+                      src="img/durum.jpg"
+                      alt="шаурма"
+                      class="list-item-img"
+                    />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Шаурма<span class="list-item-price">от 70грн.</span>
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Возможность выбрать начинку на свой вкус
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <img src="img/cake.jpg" alt="пирог" class="list-item-img" />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Десерты<span class="list-item-price">от 35грн.</span>
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Большой выбор десертов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="hot" class="tm-tab-content">
+                <div class="tm-list">
+                  <div class="list-item">
+                    <img
+                      src="img/shashlik.jpg"
+                      alt="шашлык"
+                      class="list-item-img"
+                    />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Шашлык<span class="list-item-price">от 200грн.</span>
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Говядтна, свинина, баранина. Круглый год
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <img
+                      src="img/kebab.jpg"
+                      alt="кебаб"
+                      class="list-item-img"
+                    />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Кебаб<span class="list-item-price"> от 120грн.</span>
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Настоящий турецкий со специями и дымком
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <img
+                      src="img/grill.jpg"
+                      alt="гриль"
+                      class="list-item-img"
+                    />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Овощи гриль<span class="list-item-price"
+                          >от 80грн.</span
+                        >
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Запекаем любые овощи по вашему желанию
+                      </p>
+                    </div>
+                  </div>
+                  <div class="list-item">
+                    <img
+                      src="img/stake.jpg"
+                      alt="стэйк"
+                      class="list-item-img"
+                    />
+                    <div class="black-bg list-item-text">
+                      <h3 class="list-item-name">
+                        Стэйк на гриле<span class="list-item-price"
+                          >от 150грн.</span
+                        >
+                      </h3>
+                      <p class="tm-list-item-description">
+                        Сочное и нежное мясо любой прожарки
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- end Drink Menu Page -->
+            </div>
+
+            <!-- About Us Page -->
+            <div id="about" class="tm-page-content">
+              <div class="black-bg tm-mb-20 about-box-1">
+                <h2 class="text-primary about-header">Немного о нас</h2>
+                <div class="list-item list-item-2">
+                  <img
+                    src="img/cook2.jpg"
+                    alt="Image"
+                    class="list-item-img list-item-img-big"
+                  />
+                  <div class="list-item-text-2">
+                    <p>
+                      Мы находимся в парке, на берегу реки со стороны входа.
+                      Небольшая, уютная территория порадует Вас.
+                    </p>
+                    <p>
+                      Наше кафе создаст настроение и ощущение домашнего очага в
+                      любое время года.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="black-bg tm-mb-20 about-box-2">
+                <div class="list-item list-item-2">
+                  <div class="list-item-text-2">
+                    <h2 class="text-primary">Наши традиции</h2>
+                    <p>
+                      Мы готовим только из лучших сортов кофе, качественной воды
+                      и свежих фруктов.
+                    </p>
+                  </div>
+                  <img
+                    src="img/about-2.png"
+                    alt="Image"
+                    class="list-item-img list-item-img-big img-right"
+                  />
+                </div>
+                <p>
+                  Наша цель - гости уходят веселые и довольный с огромным
+                  желанием прийти к нам внова.
+                </p>
+              </div>
+            </div>
+            <!-- end About Us Page -->
+
+            <!-- Special Items Page -->
+            <div id="special" class="tm-page-content">
+              <div class="special-items">
+                <div class="black-bg special-item">
+                  <img
+                    class="special-img"
+                    src="img/special-01.jpg"
+                    alt="Image"
+                  />
+                  <div class="special-item-description">
+                    <h2 class="text-primary special-item-title">
+                      Фруктовый лед
+                    </h2>
+                    <p class="tm-special-item-text">
+                      Холодный десерт на основе замороженного соко, чая или
+                      других фруктовых напитков
+                    </p>
+                  </div>
+                </div>
+                <div class="black-bg special-item">
+                  <img
+                    class="special-img"
+                    src="img/special-02.jpg"
+                    alt="Image"
+                  />
+                  <div class="special-item-description">
+                    <h2 class="text-primary special-item-title">Круасаны</h2>
+                    <p class="tm-special-item-text">
+                      Воздушный, ароматный - он точно не оставит никого
+                      равнодушным и подарит настроение на весь день
+                    </p>
+                  </div>
+                </div>
+                <div class="black-bg special-item">
+                  <img
+                    class="special-img"
+                    src="img/special-03.jpg"
+                    alt="Image"
+                  />
+                  <div class="special-item-description">
+                    <h2 class="text-primary special-item-title">
+                      Мини бургеры
+                    </h2>
+                    <p class="tm-special-item-text">
+                      Любите бургеры, но приелся классический размер? У нас есть
+                      решение
+                    </p>
+                  </div>
+                </div>
+                <div class="black-bg special-item">
+                  <img
+                    class="special-img"
+                    src="img/special-04.jpg"
+                    alt="Image"
+                  />
+                  <div class="special-item-description">
+                    <h2 class="text-primary special-item-title">Меренги</h2>
+                    <p class="tm-special-item-text">
+                      Самый вкусный французский десерт.
+                    </p>
+                  </div>
+                </div>
+                <div class="black-bg special-item">
+                  <img
+                    class="special-img"
+                    src="img/special-05.jpg"
+                    alt="Image"
+                  />
+                  <div class="special-item-description">
+                    <h2 class="text-primary special-item-title">
+                      Фруктовый мохито
+                    </h2>
+                    <p class="tm-special-item-text">
+                      Лучший и самый желанный напиток в жаркие летние дни.
+                    </p>
+                  </div>
+                </div>
+                <div class="black-bg special-item">
+                  <img
+                    class="special-img"
+                    src="img/special-06.jpg"
+                    alt="Image"
+                  />
+                  <div class="special-item-description">
+                    <h2 class="text-primary special-item-title">Шаурма</h2>
+                    <p class="tm-special-item-text">Вкусная и такая знакомая</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end Special Items Page -->
+
+            <!-- Contact Page -->
+            <div id="contact" class="tm-page-content">
+              <div class="black-bg contact-text-container">
+                <h2 class="text-primary">Наши контакты</h2>
+                <p>
+                  Мы находимся в Центральном парке, на берегу пруда. 300 метров
+                  от главного входа.
+                </p>
+              </div>
+              <div class="black-bg contact-form-container align-right">
+                <form action="" method="POST" id="contact-form">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Имя"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Email"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group tm-mb-30">
+                    <textarea
+                      rows="6"
+                      name="message"
+                      class="form-control"
+                      placeholder="Текст сообщения"
+                      required=""
+                    ></textarea>
+                  </div>
+                  <div>
+                    <button type="submit" class="btn-primary align-right">
+                      Отправить
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end Contact Page -->
+          </main>
+        </div>
+      </div>
+      <footer class="site-footer">
+        <p class="black-bg footer-text">
+          &copy; 2023
+          <a href="№" class="tm-footer-link" rel="sponsored" target="_parent"
+            >Olys</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+      function openTab(evt, id) {
+        $('.tm-tab-content').hide();
+        $('#' + id).show();
+        $('.tm-tab-link').removeClass('active');
+        $(evt.currentTarget).addClass('active');
+      }
+
+      function initPage() {
+        let pageId = location.hash;
+
+        if (pageId) {
+          highlightMenu($(`.tm-page-link[href^="${pageId}"]`));
+          showPage($(pageId));
+        } else {
+          pageId = $('.tm-page-link.active').attr('href');
+          showPage($(pageId));
+        }
+      }
+
+      function highlightMenu(menuItem) {
+        $('.tm-page-link').removeClass('active');
+        menuItem.addClass('active');
+      }
+
+      function showPage(page) {
+        $('.tm-page-content').hide();
+        page.show();
+      }
+
+      $(document).ready(function () {
+        /***************** Pages *****************/
+
+        initPage();
+
+        $('.tm-page-link').click(function (event) {
+          if (window.innerWidth > 991) {
+            event.preventDefault();
+          }
+
+          highlightMenu($(event.currentTarget));
+          showPage($(event.currentTarget.hash));
+        });
+
+        /***************** Tabs *******************/
+
+        $('.tm-tab-link').on('click', e => {
+          e.preventDefault();
+          openTab(e, $(e.target).data('id'));
+        });
+
+        $('.tm-tab-link.active').click(); // Open default tab
+      });
+    </script>
+  </body>
+</html>
